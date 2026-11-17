@@ -1,13 +1,52 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>projeto-monetario-faculdade</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Grana na Mão: simulador de juros e guia para o MEI</title>
+<meta name="description" content="Descubra o juro escondido no parcelado, veja quanto cresce o rotativo do cartão e calcule o DAS de 2026. Grátis, sem cadastro.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Grana na Mão: simulador de juros e guia para o MEI">
+<meta property="og:description" content="Descubra o juro escondido no parcelado e calcule o DAS de 2026. Grátis, sem cadastro.">
+<meta property="og:image" content="https://educsg.github.io/grana-na-mao/share.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#f7f9fa">
+<meta name="site-kind" content="software">
+<meta name="page-type" content="software">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:wght@400..700&family=JetBrains+Mono:wght@400..500&display=swap" rel="stylesheet">
+<!-- Kit visual da página inicial (public/assets). Baixa sempre, mas só vale na rota "/":
+     src/views/InicioView.vue troca o media para "all" ao entrar e de volta para "not all" ao sair. -->
+<link rel="stylesheet" href="/assets/system.css" media="not all" data-kit>
+<link rel="stylesheet" href="/assets/ui/cards.css" media="not all" data-kit>
+<link rel="stylesheet" href="/assets/motion/motion.css" media="not all" data-kit>
+<link rel="stylesheet" href="/assets/backgrounds/backgrounds.css" media="not all" data-kit>
+<link rel="stylesheet" href="/assets/layout/layout.css" media="not all" data-kit>
+<link rel="stylesheet" href="/assets/ui/base.css" media="not all" data-kit>
+<link rel="stylesheet" href="/assets/ui/checklist/fragment.css" media="not all" data-kit>
+<link rel="stylesheet" href="/assets/ui/stat/fragment.css" media="not all" data-kit>
+<link rel="stylesheet" href="/assets/ui/slider/fragment.css" media="not all" data-kit>
+<link rel="stylesheet" href="/assets/ui/notify/fragment.css" media="not all" data-kit>
+<style>
+:root {
+  --p-bg: #f7f9fa; --p-surface: #ecf0f2; --p-ink: #1f3038; --p-muted: #5d6b72;
+  --p-accent: #0d7480; --p-accent-ink: #ffffff; --p-action: #0d7480; --p-action-ink: #ffffff;
+  --p-inv-bg: #1f3038; --p-inv-surface: #2c3c44; --p-inv-ink: #f7f9fa; --p-inv-muted: #9ea7ab;
+  --p-inv-accent: #f7f9fa; --p-inv-accent-ink: #1f3038; --p-inv-action: #f7f9fa; --p-inv-action-ink: #1f3038;
+  --font-display: "Host Grotesk", system-ui, sans-serif;
+  --font-text: "Host Grotesk", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  --display-weight: 500;
+  --display-tracking: -0.035em;
+  --display-tracking-xl: -0.04em;
+}
+</style>
+<script src="/assets/backgrounds/backgrounds.js"></script>
+</head>
+<body>
+<div id="app"></div>
+<script type="module" src="/src/main.js"></script>
+</body>
 </html>
